@@ -8,7 +8,7 @@ const openSans = Open_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'v0 App',
+  title: 'Vivek Vajipey',
   description: 'Created with v0',
 }
 

@@ -11,19 +11,19 @@ export default function Home() {
       title: "ExplainAI",
       description: "Have a conversation while you learn",
       status: "active",
-      url: "https://explain-ai.com"
+      url: "http://explainai.vercel.app/"
     },
     {
       title: "CriticAL",
       description: "Automating model criticism with LLMs ",
       status: "active",
-      url: "https://critical-ai.com"
+      url: "https://arxiv.org/abs/2411.06590"
     },
     {
       title: "WorldDex",
       description: "A Pokédex for the real world",
       status: "completed",
-      url: "https://worlddex.app"
+      url: "https://devpost.com/software/worlddex-6diekg"
     },
   ]
 
@@ -39,10 +39,10 @@ export default function Home() {
             
           </p>
           <p className="text-gray-600 leading-relaxed">
-            Computer Science and Geophysics at Stanford University. 
+            Studying Computer Science and Geophysics at Stanford University. 
           </p>
           <p className="text-gray-600 leading-relaxed">
-            I study and build with AI, fascinated by how machines think and how we learn.
+            I build with AI, and am fascinated by how machines think and how we learn.
           </p>
         </section>
 

@@ -1,4 +1,5 @@
 import { Open_Sans } from 'next/font/google'
+import Image from 'next/image'
 
 const openSans = Open_Sans({
   subsets: ['latin'],
@@ -29,9 +30,18 @@ export default function Home() {
 
   return (
     <div className={`min-h-screen bg-white px-6 py-16 md:px-16 lg:px-32 max-w-7xl mx-auto ${openSans.className}`}>
-      <main className="space-y-24">
+      <main className="space-y-12">
         {/* Header */}
         <h1 className="text-2xl font-medium">Vivek Vajipey</h1>
+
+        <div className="w-1/2 aspect-[2/1] relative bg-gray-100 rounded-lg overflow-hidden">
+          <Image
+            src="/enchant.jpg"
+            alt="Enchantments"
+            fill
+            className="object-cover"
+          />
+        </div>
 
         {/* About Section */}
         <section className="space-y-6 max-w-2xl">

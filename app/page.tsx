@@ -42,7 +42,7 @@ export default function Home() {
             Studying Computer Science and Geophysics at Stanford University. 
           </p>
           <p className="text-gray-600 leading-relaxed">
-            I build with AI, and am fascinated by how machines think and how we learn.
+            I love building with AI, and am fascinated by how machines think and how we learn.
           </p>
         </section>
 

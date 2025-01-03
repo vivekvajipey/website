@@ -10,13 +10,13 @@ export default function Home() {
   const projects = [
     {
       title: "ExplainAI",
-      description: "Have a conversation while you learn",
+      description: "Have a conversation about what you're reading to understand it better",
       status: "active",
       url: "http://explainai.pro/"
     },
     {
       title: "CriticAL",
-      description: "Automating model criticism with LLMs ",
+      description: "Automating model criticism with LLMs",
       status: "active",
       url: "https://arxiv.org/abs/2411.06590"
     },
@@ -52,7 +52,7 @@ export default function Home() {
             Studying Computer Science and Geophysics at Stanford University. 
           </p>
           <p className="text-gray-600 leading-relaxed">
-            I love building with AI, and am fascinated by how machines think and how we learn.
+            I love building with AI, and am fascinated by how machines and humans learn.
           </p>
         </section>
 

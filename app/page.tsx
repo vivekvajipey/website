@@ -12,7 +12,7 @@ export default function Home() {
       title: "ExplainAI",
       description: "Have a conversation while you learn",
       status: "active",
-      url: "http://explainai.vercel.app/"
+      url: "http://explainai.pro/"
     },
     {
       title: "CriticAL",

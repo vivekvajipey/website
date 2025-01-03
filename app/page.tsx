@@ -58,7 +58,7 @@ export default function Home() {
 
         {/* Projects Section */}
         <section className="space-y-6">
-          <h2 className="text-xl font-medium">Projects</h2>
+          <h2 className="text-xl font-medium">Recent Projects</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
             {projects.map((project, index) => (
               <div key={index} className="space-y-2">

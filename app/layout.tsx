@@ -10,6 +10,9 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   title: 'Vivek Vajipey',
   description: 'Personal website',
+  icons: {
+    icon: '/zen.png',
+  },
 }
 
 export default function RootLayout({

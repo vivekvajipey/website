@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: 'Vivek Vajipey',
   description: 'Personal website',
   icons: {
-    icon: '/icon.png',
+    icon: '/zen.png',
   },
 }
 

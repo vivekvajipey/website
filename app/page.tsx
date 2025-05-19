@@ -1,5 +1,7 @@
 import { Open_Sans } from 'next/font/google'
 import Image from 'next/image'
+// Import icons for social media
+import { Github, Linkedin, Twitter, Mail } from 'lucide-react'
 
 const openSans = Open_Sans({
   subsets: ['latin'],
@@ -87,11 +89,51 @@ export default function Home() {
         {/* Contact Section */}
         <section className="space-y-6">
           <h2 className="text-xl font-medium">Contact</h2>
-          <p className="text-gray-600">
-            <a href="mailto:vvajipey@stanford.edu" className="underline">
-              vvajipey at stanford.edu
-            </a>
-          </p>
+          <div className="flex flex-col space-y-4">
+            <p className="text-gray-600">
+              <a href="mailto:vvajipey@stanford.edu" className="underline">
+                vvajipey at stanford.edu
+              </a>
+            </p>
+            
+            {/* Social Media Links */}
+            <div className="flex space-x-4">
+              <a 
+                href="https://www.linkedin.com/in/vivek-vajipey" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+                aria-label="LinkedIn"
+              >
+                <Linkedin size={20} />
+              </a>
+              <a 
+                href="https://github.com/vivekvajipey" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+                aria-label="GitHub"
+              >
+                <Github size={20} />
+              </a>
+              <a 
+                href="https://twitter.com/vivekvajipey" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+                aria-label="Twitter"
+              >
+                <Twitter size={20} />
+              </a>
+              <a 
+                href="mailto:vvajipey@stanford.edu" 
+                className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors"
+                aria-label="Email"
+              >
+                <Mail size={20} />
+              </a>
+            </div>
+          </div>
         </section>
 
         {/* Footer */}

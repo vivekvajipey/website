@@ -26,7 +26,7 @@ export default function Home() {
       title: "WorldDex",
       description: "A Pokédex for the real world",
       status: "completed",
-      url: "https://devpost.com/software/worlddex-6diekg"
+      url: "https://testflight.apple.com/join/Eb87FnN1"
     },
   ]
 

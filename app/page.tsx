@@ -11,22 +11,22 @@ const openSans = Open_Sans({
 export default function Home() {
   const projects = [
     {
-      title: "ExplainAI",
-      description: "Have a conversation about what you're reading to understand it better",
+      title: "Ruminate",
+      description: "AI-assisted e-reader for PDFs, EPUBs, arXiv papers, and links with inline annotations and shareable AI chats.",
       status: "active",
-      url: "http://explainai.pro/"
+      url: "https://tryruminate.com/"
     },
     {
-      title: "CriticAL",
-      description: "Automating model criticism with LLMs",
+      title: "Simple, Scalable Reasoning via Iterated Summarization",
+      description: "Inference time method for extending LLM reasoning time that preserves backtracking to extend LLM thinking; +11% on AIME 2024/25.",
       status: "active",
-      url: "https://arxiv.org/abs/2411.06590"
+      url: "https://openreview.net/pdf?id=uhZLKclfGB"
     },
     {
       title: "WorldDex",
-      description: "A Pokédex for the real world",
+      description: "A Pokédex for the real world.",
       status: "completed",
-      url: "https://testflight.apple.com/join/Eb87FnN1"
+      url: "https://worlddex.app/"
     },
   ]
 
@@ -51,7 +51,7 @@ export default function Home() {
             
           </p>
           <p className="text-gray-600 leading-relaxed">
-            Studying Computer Science and Geophysics at Stanford University. 
+            Studied Computer Science and Geophysics at Stanford University. 
           </p>
           <p className="text-gray-600 leading-relaxed">
             I love building with AI, and am fascinated by how machines and humans learn.
@@ -138,7 +138,7 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="pt-24 flex justify-between text-sm text-gray-500">
-          <p>Based in Palo Alto</p>
+          <p>Based in San Francisco</p>
           {/* <p>Building the future, one project at a time.</p> */}
         </footer>
       </main>
